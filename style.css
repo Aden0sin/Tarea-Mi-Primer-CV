@@ -4,7 +4,23 @@
     border-color: darkblue
 }
 
+.Titulo{
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    background-color: darkblue;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
 .image-profile{
     height:170.98px;
     width: 132.28px;
+}
+
+.nombre{
+
+    font-family: helvetica;
+    font-size: 50px;
 }
