@@ -24,3 +24,12 @@
     font-family: helvetica;
     font-size: 50px;
 }
+
+.informacion-de-contacto{
+    display: flex;
+    justify-content: space-around;
+    font-family: arial;
+    font-size: 10px;
+    gap: 30px;
+}
+
