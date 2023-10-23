@@ -1,5 +1,5 @@
 .container{
-    padding: 30px;
+    padding: 60px;
     border: 10px;
     border-color: darkblue
 }
@@ -51,4 +51,49 @@
     font-family: arial;
     font-size: 12px;
 
+}
+
+.experiencia-laboral{
+display: flex;
+flex-direction: column;
+margin: 0;
+}
+
+.canasta-de-trabajo{
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 3fr;
+    margin: 0;
+}
+
+.nombre-de-empresa{
+    grid-column: 1;
+    grid-row: 1;
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.nombre-de-puesto{
+    font-family: helvetica;
+    font-size: 14px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.periodo-de-trabajo{
+    grid-column: 3;
+    grid-row: 1;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.tareas-del-puesto{
+    grid-row: 3;
+    grid-column: 1;
+    font-family: arial;
+    font-size: 12px;
 }
