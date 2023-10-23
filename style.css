@@ -33,3 +33,22 @@
     gap: 30px;
 }
 
+.descripcion-de-perfil{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+}
+
+.acerca-de-mi{
+    font-size: 12px;
+    font-family: helvetica;
+    font-weight: bold;
+    
+}
+
+.profile-description{
+    font-family: arial;
+    font-size: 12px;
+
+}
