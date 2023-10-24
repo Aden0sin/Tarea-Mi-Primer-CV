@@ -97,3 +97,9 @@ margin: 0;
     font-family: arial;
     font-size: 12px;
 }
+
+.canasta-de-educacion{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    }
