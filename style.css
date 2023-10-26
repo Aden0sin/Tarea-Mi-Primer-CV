@@ -108,7 +108,7 @@ padding: 0 0 0 100px;
     justify-content: start;
     grid-column: 1;
     grid-row: 1;
-    font-family: helvetica;
+    font-family: tahoma;
     font-size: 16px;
     font-weight: bold;
     margin: 0;
@@ -118,7 +118,7 @@ padding: 0 0 0 100px;
 .nombre-de-puesto{
     display: grid;
     justify-content: start;
-    font-family: helvetica;
+    font-family: tahoma;
     font-size: 14px;
     grid-column: 1;
     grid-row: 2;
@@ -130,7 +130,7 @@ padding: 0 0 0 100px;
     justify-content: end;
     grid-column: 2;
     grid-row: 1;
-    font-family: helvetica;
+    font-family: tahoma;
     font-size: 14px;
     font-weight: bold;
     margin: 0;
@@ -144,7 +144,7 @@ padding: 0 0 0 100px;
     grid-column: 1;
     font-family: arial;
     font-size: 12px;
-    
+
     margin: 0 0 20px 0;
 }
 
@@ -239,6 +239,3 @@ padding: 0 0 0 100px;
     font-family: Tahoma;
     color: white;
 }
-
-
-
