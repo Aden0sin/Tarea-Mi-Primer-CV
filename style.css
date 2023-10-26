@@ -58,7 +58,7 @@
     align-items: center;
     grid-column-start: 1;
     grid-row-start: 1;
-    font-family: helvetica;
+    font-family: tahoma;
     font-weight: bold;
     height: fit-content;
     color: antiquewhite;
@@ -94,6 +94,14 @@ padding: 0 0 0 100px;
     grid-template-rows: 1fr 1fr 2fr;
     margin: 0;
 }
+
+.encabezado-laboral{    
+    display: inline-block;
+    background-color: black;
+    width: fit-content;
+    font-family: tahoma;
+    color: white;
+    }
 
 .nombre-de-empresa{
     display: grid;
@@ -148,7 +156,17 @@ padding: 0 0 0 100px;
     width: 70%;
     padding: 0 0 0 100px;
     
+    
 }
+
+.encabezado-educacion{
+    display: inline-block;
+    background-color: black;
+    width: fit-content;
+    font-family: tahoma;
+    color: white;
+}
+
 
 .canasta-de-educacion{   
     display: grid;
@@ -213,6 +231,14 @@ padding: 0 0 0 100px;
 
 }
 
+.encabezado-competencias{
+    display: grid;
+    display: inline-block;
+    background-color: black;
+    width: fit-content;
+    font-family: Tahoma;
+    color: white;
+}
 
 
 
