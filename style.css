@@ -39,6 +39,7 @@
     gap: 30px;
 }
 
+
 .descripcion-de-perfil{
     display: grid;
     grid-template-columns: 1fr;
@@ -93,6 +94,9 @@ padding: 0 0 0 100px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 2fr;
     margin: 0;
+    width: auto;
+    height: auto;
+    
 }
 
 .encabezado-laboral{    
@@ -112,6 +116,7 @@ padding: 0 0 0 100px;
     font-size: 16px;
     font-weight: bold;
     margin: 0;
+    height: fit-content;
 
 }
 
@@ -123,6 +128,7 @@ padding: 0 0 0 100px;
     grid-column: 1;
     grid-row: 2;
     margin: 0 0 0 0;
+    
 }
 
 .periodo-de-trabajo{
@@ -142,8 +148,8 @@ padding: 0 0 0 100px;
     justify-content: start;
     grid-row: 3;
     grid-column: 1;
-    font-family: arial;
-    font-size: 12px;
+    font-family: tahoma;
+    font-size: 14px;
 
     margin: 0 0 20px 0;
 }
@@ -184,7 +190,8 @@ padding: 0 0 0 100px;
     grid-column: 1;
     grid-row: 1;
     font-family: helvetica;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: tahoma;
     font-weight: bold; 
     align-items: end;
     margin: 0 0 10px 0;
@@ -202,6 +209,7 @@ padding: 0 0 0 100px;
     font-weight: bold;
     align-items: end;
     margin: 0;
+    font-family: tahoma;
     
 }
 
@@ -214,6 +222,7 @@ padding: 0 0 0 100px;
     grid-row: 2;
     align-items: start;
     margin: 0;
+    font-family: tahoma;
     
 }
 
@@ -239,3 +248,9 @@ padding: 0 0 0 100px;
     font-family: Tahoma;
     color: white;
 }
+
+.skills{
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
