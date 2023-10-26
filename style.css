@@ -52,13 +52,18 @@
 
 .acerca-de-mi{
     display: grid;
-    align-items: start;
-    margin: 0;
+    display: inline-block;
+    background-color: black;
+    width: fit-content;
+    align-items: center;
     grid-column-start: 1;
     grid-row-start: 1;
     font-family: helvetica;
     font-weight: bold;
-    height: fit-content
+    height: fit-content;
+    color: antiquewhite;
+    margin: 0 0 5px 0;
+    
    
 }
 
