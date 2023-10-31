@@ -1,7 +1,11 @@
 .container{
     padding: 50px;
     border: 30px;
+    border-style: solid;
+    border-color: black;
     
+}
+
 
 .Titulo{
     display: grid;
@@ -12,8 +16,6 @@
     justify-content: center;
     align-items: center;
     margin: 0 0 0 30px;
-    height: fit-content
-    width: fit-content
 }
 
 .image-profile{
@@ -230,7 +232,7 @@ padding: 0 0 0 100px;
 
 .competencias{
     display: grid;
-    width: 70;
+    width: 70px;
     margin: 0;
     padding: 0 0 0 100px
 }
@@ -238,7 +240,7 @@ padding: 0 0 0 100px;
 .canasta-de-competencias{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 
 }
 
@@ -256,3 +258,30 @@ padding: 0 0 0 100px;
     font-size: 14px;
 }
 
+.hobbies{
+    display: grid;
+    width: 70px;
+    margin: 0;
+    padding: 0 0 0 100px
+}
+
+.canasta-de-hobbies{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.encabezado-hobbies{
+    display: grid;
+    display: inline-block;
+    background-color: black;
+    width: fit-content;
+    font-family: Tahoma;
+    color: white;
+}
+
+.lista-de-hobbies{
+    font-family: Tahoma;
+    font-size: 14px;
+}
