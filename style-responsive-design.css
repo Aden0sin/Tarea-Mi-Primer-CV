@@ -20,6 +20,25 @@
     
 }
 
+
+
+@media screen and (max-width: 414px){ .Titulo{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8rem;
+    background-color: #003878;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 1.875rem;
+    
+    height: fit-content;
+
+}
+}
+
+
 .image-profile{
     display: grid;
     grid-column-start: 1;
@@ -69,7 +88,7 @@
     font-family: tahoma;
     font-weight: bold;
     height: fit-content;
-    color: antiquewhite;
+    color: white;
     margin: 0 0 0.15625em 0;
     
    
@@ -291,3 +310,4 @@ padding: 0 0 0 6.25rem;
     font-size: 0.875rem;
     width: max-content;
 }
+
